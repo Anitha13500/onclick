@@ -16,25 +16,25 @@
 		let but1=document.getElementById("but");
 		but.addEventListener("click",myfunction)
 		function myfunction(){
-			let input1=document.getElementById("num1").value;
-			let input2=document.getElementById("num2").value;
-			let input3=document.getElementById("num3").value;
-			if(input1>input2&&input1>input3){
-		if(input2>input3){
+			let num1=document.getElementById("num1").value;
+			let num2=document.getElementById("num2").value;
+			let num3=document.getElementById("num3").value;
+			if(num1>num2&&num1>num3){
+		if(num2>num3){
 			document.getElementById("para").innerHTML=("num3,num2,num1")
 			}
 		else{
 			document.getElementById("para").innerHTML=(num2,num3,num1)
 			}
-		 if(input2>input1&&input2>input3){
-		if(input3>input1){
+		 if(num2>num1&&num2>num3){
+		if(num3>num1){
 			document.getElementById("para").innerHTML=(num1,num3,num2)
 		}
 		else{
 			document.getElementById("para").innerHTML=(num3,num1,num2)
 		}
-		 if(input3>input1&&input3>input2){
-		if(input2>input1){
+		 if(num3>num1&&num3>num2){
+		if(num2>num1){
 			document.getElementById("para").innerHTML=(num1,num2,num3)
 			
 		}
